@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title> Lista de Contatos </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-card>
+    <ion-card-header> Contatos:</ion-card-header>
+  </ion-card>
+    <ion-list class="listacontatos">
+      <button ion-item *ngFor="let contato of contatos">
+        {{ contato.nome }} {{ contato.sobrenome }}
+          <ion-icon class="logos" name="logo-whatsapp" item-end></ion-icon>
+      </button>
+    </ion-list>
+  
+</ion-content>

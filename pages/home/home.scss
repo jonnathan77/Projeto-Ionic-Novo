@@ -1,0 +1,38 @@
+ion-content {
+  background: url('../assets/imagemhome.jpg');
+  opacity: 0.9;
+}
+
+
+  .loginPage{
+      background: url('../assets/imagemhome.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .login-container {
+      border-radius: 10px;
+      opacity: 0.8;
+      width: 80%;
+      text-align: center;
+      background-color: white;
+   }
+   .login-logo{
+       vertical-align: center;
+       text-align: center;
+   }
+   .login-form{
+       opacity: none!important;
+   }
+
+   .botaoinicio{
+        background-color: white; /* Green */
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+   
